@@ -1,0 +1,110 @@
+/* ----- SHARED CSS ----- */
+body{
+  margin: 0;
+  font-family: 'Akshar', sans-serif;
+  transition: background-color 0.5s ease;
+  background-color: #151515;
+}
+
+h1 {
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+header a{
+  text-decoration: none;
+  color: white;
+  position: relative;
+}
+header a:after{
+  content: "";
+  position: absolute;
+  background-color: #E1FF8A;
+  height: 3px;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+  width: 0%;
+}
+header a:hover:after{
+  width: 100%;
+}
+nav{
+  display: flex;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 3%;
+  justify-content: space-between;
+  font-size: 25px;
+  font-family: "Outfit", sans-serif;
+  align-items: center;
+}
+.nav-right{
+  font-size: 15px;
+  display: flex;
+  gap: 20px;
+}
+.current-nav{
+  color: #E1FF8A;
+}
+
+button{
+  cursor: pointer;
+}
+
+.dark-button, .light-button{
+  border: none;
+  padding: 1.5% 5%;
+  transition: background-color 0.5s ease;
+  border-radius: 20px;
+}
+.dark-button{
+  background-color: #222222;
+  color: white;
+}
+.light-button{
+  margin-left: 10px;
+}
+.dark-button:hover {
+  background-color: rgb(116, 113, 113); 
+}
+.light-button:hover{
+  background-color: #8c8c73;
+  color:white;
+}
+
+footer{
+  background-color: #212121;
+  padding-bottom: 20px;
+}
+footer section{
+  padding: 3% 2% 0% 2%;
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+}
+footer a{
+  text-decoration: none;
+  color: white;
+}
+footer img{
+  height: 1em;
+  margin-left: 5px;
+  transition: transform 0.1s ease;
+}
+footer a:hover img{ 
+  transform: scale(2); 
+}
+.footer-cred{
+  text-align: center;
+  color: white;
+  padding: 2% 0%;
+  font-size: 10px;
+}
+
+main {
+  margin: 30px
+}
