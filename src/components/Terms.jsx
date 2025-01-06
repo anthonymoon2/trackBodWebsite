@@ -8,8 +8,7 @@ function Terms() {
       <p style={{ fontSize: '14px', color: '#888888' }}>Effective Date: January 1, 2025</p>
       <h2 style={{ fontSize: '18px', fontWeight: 'bold', marginTop: '20px' }}>Welcome to trackBod!</h2>
       <p>
-        These Terms and Conditions ("Terms") govern your access to and use of the trackBod mobile application ("App"),
-        operated by Anthony Moon ("Company," "we," or "us"). By using the App, you agree to these Terms. If you do not
+        These Terms and Conditions ("Terms") govern your access to and use of the trackBod mobile application ("App"). By using the App, you agree to these Terms. If you do not
         agree, you may not use the App.
       </p>
       <p>
