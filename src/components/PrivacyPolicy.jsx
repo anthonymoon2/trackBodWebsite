@@ -19,7 +19,7 @@ function PrivacyPolicy() {
           <li>Account information (e.g., name, email).</li>
           <li>Photos uploaded for body analysis.</li>
           <li>Physical metrics (e.g., weight, height).</li>
-          <li>Device and usage data (e.g., IP address, app activity).</li>
+          <li>Device and usage data (e.g. app activity).</li>
         </ul>
       </p>
 
