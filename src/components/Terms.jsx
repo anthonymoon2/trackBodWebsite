@@ -4,7 +4,7 @@ function Terms() {
   return (
     <main style={{ backgroundColor: '#151515', color: '#FFFFFF', padding: '20px', fontFamily: 'Arial, sans-serif' }}>
       <h1 style={{ fontSize: '24px', fontWeight: 'bold', marginBottom: '20px', marginTop: '50px' }}>Terms and Conditions</h1>
-      
+
       <p style={{ fontSize: '14px', color: '#888888' }}>Effective Date: January 1, 2025</p>
       <h2 style={{ fontSize: '18px', fontWeight: 'bold', marginTop: '20px' }}>Welcome to trackBod!</h2>
       <p>
@@ -12,12 +12,17 @@ function Terms() {
         operated by Anthony Moon ("Company," "we," or "us"). By using the App, you agree to these Terms. If you do not
         agree, you may not use the App.
       </p>
+      <p>
+        The App is designed to provide approximations of body metrics for informational purposes only. It does not provide
+        medical advice or replace professional healthcare consultations. Always consult with a qualified healthcare
+        provider for medical concerns or decisions.
+      </p>
 
       <hr style={{ borderColor: '#444444', margin: '20px 0' }} />
 
       <h2 style={{ fontSize: '18px', fontWeight: 'bold' }}>1. Use of the App</h2>
       <p>
-        a. Eligibility: You must be at least 18 years old to use the App, or have the consent of a parent or legal guardian.
+        a. Eligibility: You must be at least 17 years old to use the App, or have the consent of a parent or legal guardian.
         You agree to provide accurate, complete, and up-to-date information when creating an account.
       </p>
       <p>
@@ -65,6 +70,11 @@ function Terms() {
         The App is provided "as is" without warranties of any kind, express or implied. We do not guarantee accuracy,
         reliability, or uninterrupted availability. Use of the App is at your own risk.
       </p>
+      <p>
+        The metrics and information provided are for informational purposes only and do not constitute medical advice. The
+        App should not be used to diagnose, treat, cure, or prevent any medical condition. Always consult a qualified
+        healthcare provider for medical concerns.
+      </p>
 
       <hr style={{ borderColor: '#444444', margin: '20px 0' }} />
 
@@ -93,7 +103,7 @@ function Terms() {
 
       <h2 style={{ fontSize: '18px', fontWeight: 'bold' }}>9. Contact</h2>
       <p>
-        For questions about these Terms, contact us at <a href="mailto:support@bodymetricsapp.com" style={{ color: '#E1FF8A' }}>trackbodapp@gmail.com</a>.
+        For questions about these Terms, contact us at <a href="mailto:trackbodapp@gmail.com" style={{ color: '#E1FF8A' }}>trackbodapp@gmail.com</a>.
       </p>
     </main>
   );
