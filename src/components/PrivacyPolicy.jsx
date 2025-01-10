@@ -19,7 +19,7 @@ function PrivacyPolicy() {
           <li>Account information (e.g., name, email).</li>
           <li>Photos uploaded for body analysis.</li>
           <li>Physical metrics (e.g., weight, height).</li>
-          <li>Device and usage data (e.g. app activity).</li>
+          <li>Device and usage data (e.g., app activity).</li>
         </ul>
       </p>
 
@@ -70,6 +70,7 @@ function PrivacyPolicy() {
         <ul>
           <li>To comply with legal obligations or enforce our Terms and Conditions.</li>
           <li>To trusted service providers who assist in operating the App (e.g., cloud storage, analytics).</li>
+          <li>Height and weight data may be shared with third-party services for metric calculations. This shared data is anonymized and used solely for calculating metrics. No other data, including body fat percentage, head posture, or shoulder posture, is shared.</li>
         </ul>
         These providers are bound by confidentiality agreements and only process data as instructed.
       </p>
