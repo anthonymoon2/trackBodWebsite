@@ -7,7 +7,7 @@ function PrivacyPolicy() {
 
       <p style={{ fontSize: '14px', color: '#888888' }}>Effective Date: January 1, 2025</p>
       <p>
-        This Privacy Policy explains how we collect, use, and protect your personal data when you use the BodyMetrics mobile
+        This Privacy Policy explains how we collect, use, and protect your personal data when you use the trackBod mobile
         application ("App"). By using the App, you agree to the terms outlined here. If you do not agree, please refrain
         from using the App.
       </p>
