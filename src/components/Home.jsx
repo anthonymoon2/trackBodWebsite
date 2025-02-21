@@ -33,10 +33,6 @@ function Home() {
         />
       </div>
 
-      <img 
-          src="images/appstore.png" 
-          style={{ width: '200px', maxWidth: '100%', display: 'block', margin: '0 auto' }} 
-        />
     </main>
   );
 }
